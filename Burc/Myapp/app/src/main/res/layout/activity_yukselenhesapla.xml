@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cevapbg"
+    android:orientation="vertical"
+    tools:context=".yukselenhesapla">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Burcunuz :"
+        android:textSize="25dp"
+        android:textColor="@color/beyaz"
+        />
+
+        <TextView
+            android:id="@+id/burc_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="15dp"
+            android:text="ASLAN"
+            android:textColor="@color/beyaz"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Yükseleniniz :"
+            android:textSize="25dp"
+            android:textColor="@color/beyaz"
+            />
+
+        <TextView
+            android:id="@+id/yukselen_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="15dp"
+            android:text="KAPLAN"
+            android:textColor="@color/beyaz"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Burcunuzun Özellikleri ;"
+            android:textSize="25dp"
+            android:textColor="@color/beyaz"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        >
+
+
+        <TextView
+            android:id="@+id/ozellik_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sadece gözleriyle konuşan tek insan, Akrep'tir. Bu tutku insanı ile boy ölçüşeceğinizi sanıyorsanız yanılıyorsunuz. İçlerindeki yüksek duygular, onları ihtiraslı ve gizemli yapar. Cinsel duygularını çok yoğun yaşarlar ve aşk yaşantıları bir hayli gizlidir. Kapılarını kolay kolay kimseye açmazlar. İnsanı mıknatıs gibi çeken bakışları vardır. Karşılarındaki kişiyi çok kolay etkileri altına alırlar."
+            android:textSize="20dp"
+            android:textColor="@color/beyaz"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

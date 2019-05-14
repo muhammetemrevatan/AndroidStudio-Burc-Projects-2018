@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anasayfabg"
+    android:gravity="center"
+    tools:context=".anasayfa">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:text="Doğum Yılınızı Seçiniz!"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/beyaz"
+            app:fontFamily="sans-serif-light" />
+
+        <Spinner
+            android:id="@+id/spin_yil"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:dropDownWidth="300dp"
+            android:dropDownHeight="100dp"
+            android:paddingLeft="125dp"
+            android:background="@drawable/spinnerlogo"
+            android:gravity="center"
+            android:popupBackground="@android:color/white"
+
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:text="Doğum Ayınızı Seçiniz!"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textColor="@color/beyaz"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-light" />
+
+        <Spinner
+            android:id="@+id/spin_ay"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:paddingLeft="120dp"
+            android:background="@drawable/spinnerlogo"
+            android:dropDownWidth="300dp"
+            android:dropDownHeight="100dp"
+            android:popupBackground="@android:color/white"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:text="Doğum Gününüzü Seçiniz !"
+            android:textColor="@color/beyaz"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-light" />
+
+        <Spinner
+            android:id="@+id/spin_gun"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/spinnerlogo"
+            android:dropDownWidth="300dp"
+            android:dropDownHeight="100dp"
+            android:paddingLeft="140dp"
+            android:popupBackground="@android:color/white"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:text="Doğum Saatinizi Seçiniz!"
+            android:textColor="@color/beyaz"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-light" />
+
+        <Spinner
+            android:id="@+id/spin_saat"
+            android:layout_width="300dp"
+            android:background="@drawable/spinnerlogo"
+            android:layout_height="50dp"
+            android:paddingLeft="90dp"
+            android:dropDownWidth="300dp"
+            android:dropDownHeight="100dp"
+            android:popupBackground="#363333"
+            android:spinnerMode="dialog" />
+
+
+        <Button
+            android:id="@+id/hesap"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshapecolor2"
+            android:text="Hesapla"
+            android:paddingLeft="30dp"
+            android:textColor="#DC1B1414"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

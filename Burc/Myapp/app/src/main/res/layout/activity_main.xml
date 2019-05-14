@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/deneme">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:ems="10"
+            android:textColor="#D4AF37"
+            android:textColorHighlight="#D4AF37"
+            android:textColorHint="#D4AF37"
+            android:textColorLink="#D4AF37"
+            android:textCursorDrawable="@color/altın"
+            android:textIsSelectable="true"
+            android:textStyle="bold"
+            android:hint="Kullanıcı Adı"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/cpass"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#D4AF37"
+            android:textColorHighlight="#D4AF37"
+            android:textColorHint="#D4AF37"
+            android:textColorLink="#D4AF37"
+            android:textCursorDrawable="@color/altın"
+            android:textIsSelectable="true"
+            android:textStyle="bold"
+            android:hint="Şifre"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#D4AF37"
+            android:textColorHighlight="#D4AF37"
+            android:textColorHint="#D4AF37"
+            android:textColorLink="#D4AF37"
+            android:textCursorDrawable="@color/altın"
+            android:textIsSelectable="true"
+            android:textStyle="bold"
+            android:hint="Tekrar Şifre"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+
+            android:background="@drawable/buttonshapecolor"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:paddingLeft="30dp"
+            android:textStyle="bold"
+            android:text="KAYIT OL" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonshapecolor"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:text="Giriş Yap"
+            android:textSize="20dp"
+
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
